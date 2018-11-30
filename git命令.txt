@@ -1,4 +1,4 @@
-mkdir learngit //用于创建learngit文件夹
+﻿mkdir learngit //用于创建learngit文件夹
 cd learngit //进入learngit文件夹
 pwd //用于显示当前的路径
 
@@ -19,3 +19,4 @@ git reset --hard e4f432c1da41f90c15d1cd9466080641960c5fca//退回到该版本
 
 cat readme.txt   //显示readme.txt的内容
 
+得到
