@@ -1,0 +1,21 @@
+mkdir learngit //用于创建learngit文件夹
+cd learngit //进入learngit文件夹
+pwd //用于显示当前的路径
+
+git init  //把当前目录变成git可以管理的仓库
+
+git add readme.txt //把readme.txt添加到仓库
+
+git commit -m "message" //把更改提交到创库，其中，message是提交的日志
+
+git log //查看提交的版本信息
+
+git log --pretty=oneline //以一行的形式查看提交的版本信息
+
+git reflog	//查看历史版本信息
+
+git reset --hard HEAD^ //退回到上一个版本
+git reset --hard e4f432c1da41f90c15d1cd9466080641960c5fca//退回到该版本
+
+cat readme.txt   //显示readme.txt的内容
+
